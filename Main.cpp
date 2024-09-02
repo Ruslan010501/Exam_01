@@ -94,7 +94,7 @@ public:
             cout << "Player " << currentPlayer << ", enter row and column (0-2): ";
             cin >> row >> col;
 
-            moveValid = board.placeMark(row, col, currentPlayer);
+            .placeMark(row, col, currentPlayer);
 
             if (!moveValid) {
                 cout << "Invalid move, try again.\n";
