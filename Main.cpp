@@ -97,7 +97,7 @@ public:
             .placeMark(row, col, currentPlayer);
 
             if (!moveValid) {
-                cout << "Invalid move, try again.\n";
+                ;
                 continue;
             }
 
